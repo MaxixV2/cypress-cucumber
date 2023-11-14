@@ -1,5 +1,4 @@
 const { Given, When, Then } = require("cypress-cucumber-preprocessor/steps");
-import { error } from "console";
 import { getTestData } from "../../support/before";
 import { InventoryPage } from "../pages/inventory.page";
 
